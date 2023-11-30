@@ -13,9 +13,9 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
-app.get('/cats', (req, res) => {
+app.get('/cities', (req, res) => {
     const cats = [
-        'Blue', 'Rocket', 'Monty', 'Stephanie', 'Winston'
+        'Barcelona', 'Leopolis', 'Paris'
     ]
     res.render('cats', { cats })
 })
