@@ -1,18 +1,88 @@
-<%- include('partials/head')%>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oksana Fedyukova </title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha384-wjGjNdCA02D9l3U8bxCAYydHLlAxVbT9zCOyJSK2ueCrP28HUC4qEUZRYnfnhQXd"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<%- include('partials/navbar')%>
+  <body class=" text-white bg-dark">
+        <div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Akseniya Travel Girl</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="/r/paris">Paris</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/r/barcelona">Barcelona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/r/leopolis">Leopolis </a>
+                    </li> 
+               
+                </ul>
+            </div>
+        </div>
 
-<h1> Welcome to Our Subreddit Explorer! <%= 'hello world'.toUpperCase() %></h1>
-<p>  
-    Discover the fascinating world of subreddits with our Subreddit Explorer application. Powered by the latest web technologies, this platform allows you to seamlessly navigate through various subreddits and explore their unique content.
-    
-    Technologies Used:
-<h2> Express.js:</h2>      Our backend is built on Express.js, a fast and minimalist web framework for <h2>Node.js.</h2> It handles server-side logic, routing, and integrates seamlessly with our chosen templating engine.
-<br>     
-<h2>EJS (Embedded JavaScript):</h2>  EJS is our templating engine of choice, making it easy to dynamically generate HTML content and display data on the client side.
-    Node.js: The backbone of our application, Node.js ensures high performance and non-blocking I/O, making your browsing experience smooth and efficient. 
-</p>
+      <main >
+        <h2>Welcome to my Travel World!</h2>
+        <div class="card mt-3" >
+          
+          <div class="mt-2" >
+    <p>Embark on a journey of discovery and adventure with me as I share tales from my globetrotting escapades to over 30 countries across three continents. From the serene landscapes of Europe to the vibrant cultures of Asia and the breathtaking scenery of the Americas, my travel blog is your passport to a world filled with wonder and exploration.</p>
+
+    <p>Join me as I delve into the heart of each destination, uncovering hidden gems, and capturing the essence of my experiences through vivid storytelling and captivating imagery. Whether you're a seasoned traveler seeking inspiration for your next voyage or an armchair explorer dreaming of far-off places, you're invited to wanderlust alongside me.</p>
+
+    <p>Discover insider tips on the must-visit spots, delectable local cuisines, and the unique cultural nuances that make each destination unforgettable. From the bustling markets of Marrakech to the pristine beaches of Bali, my blog is your go-to resource for travel enthusiasts seeking both off-the-beaten-path adventures and well-loved classics.</p>
+
+    <p><strong>Explore. Dream. Discover.</strong></p>
+
+    <p>Welcome to my travel sanctuary. 🌍✈️</p>
+
+          </div>
+         
+
+      </div> 
+      <a href="/r/paris" class="btn btn-lg btn-secondary mt-3 font-weight-bold border-white " style="background-color: orangered; color:aliceblue">
+JOIN          </a>
+      </main>
+  
+
+      
 
 
-
-<%- include('partials/footer')%>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
